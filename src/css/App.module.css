@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrap .item {
+  padding: 30px;
+  flex-basis: 200px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* :global을 붙이면 일반 css 적용하듯이 className에 {} 없이 작성하면 된다. */
+:global .inner {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+}
+:global .input-control {
+  width: 100%;
+  border: 1px solid #555555;
+  border-radius: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}

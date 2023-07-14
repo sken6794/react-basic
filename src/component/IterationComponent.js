@@ -33,9 +33,7 @@ function IterationComponet() {
       <ul>{result}</ul>
 
       <h3>여기에 list의 title값을 컴포넌트 반복으로 값을 넣어</h3>
-      <select name="" id="">
-        {newarr}
-      </select>
+      <select>{newarr}</select>
     </div>
   );
 }
